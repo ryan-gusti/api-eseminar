@@ -74,6 +74,11 @@ const EventSchema = Schema(
       ref: "Talent",
       required: true,
     },
+    organizer: {
+      type: Types.ObjectId,
+      ref: "Organizer",
+      required: true,
+    },
   },
   { timestamps: true }
 );
