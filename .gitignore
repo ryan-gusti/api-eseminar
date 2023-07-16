@@ -2,3 +2,4 @@ node_modules
 mock
 .env
 public/uploads/
+.DS_Store

@@ -11,10 +11,10 @@ const orderDetailSchema = new Schema({
       type: Number,
       default: 0,
     },
-    sumTicket: {
-      type: Number,
-      required: true,
-    },
+  },
+  sumTicket: {
+    type: Number,
+    required: true,
   },
 });
 
